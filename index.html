@@ -10,34 +10,36 @@
 <body>
     <div>
         <header>
-            <h1 id="header">Welcome</h1>
-                <div>
-                    <ul id="spacer"
-                        <li><a href="gregmarzec02@gmail.com">Email</a></li>
-                        <li><a href="https://github.com/gregmarz">Github</a></li>
-                        <li><a href="gregmarzec02@gmail.com">place</a></li>
-                    </ul>
-                </div>
+            <h1 class="header">Welcome</h1>
+                <div class="spacer header">
+                    <span><a href="mailto:gregmarzec02@gmail.com">Email</a></span>
+                    <span><a href="https://github.com/gregmarz" target="_blank">Github</a></span>
+                    <span><a href="#contact_info">Contact Info</a></span>
+                <div/>
         </header>
     <div>
         <div>
             <body>
                 <h2 class="center">You are about to see a man making a large cake</h2>
-                <img class="center" src="https://i2-prod.mirror.co.uk/incoming/article13544421.ece/ALTERNATES/s1200d/0_Tate-Lyle-celebrates-140-years-of-sugar-refining-in-London-with-giant-commemorative-cake.jpg" alt="giant cake" width="700px" height="500px"><br>
+                <img class="center" src="https://i2-prod.mirror.co.uk/incoming/article13544421.ece/ALTERNATES/s1200d/0_Tate-Lyle-celebrates-140-years-of-sugar-refining-in-London-with-giant-commemorative-cake.jpg" alt="man decorating giant cake" width="700px" height="500px"><br>
                 <p class="center" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur quaerat sit adipisci. Illum vel ipsam ipsa temporibus veritatis quis beatae quasi tempora corporis? Quas quia error a quis? Autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus, amet dignissimos placeat corporis ducimus repudiandae quae explicabo nisi repellat adipisci ea eum atque dolores nostrum possimus, ratione sit architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione ducimus veniam. Officiis deserunt corrupti minima incidunt nihil nam ipsam sunt at, eius sequi totam ad saepe a ratione fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero error odio distinctio ab, provident eos modi fugit necessitatibus officiis, non deleniti eveniet autem cum tenetur assumenda eligendi earum sit voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati nulla animi vero possimus ad soluta neque quisquam adipisci perspiciatis doloremque at laborum, vel nostrum. Voluptate architecto illum dolorem temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, praesentium hic eveniet distinctio fuga veritatis, consequatur vel accusamus voluptate ex architecto repudiandae, aperiam minus deleniti unde! Natus cumque molestiae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ex rem, pariatur ratione sapiente unde totam saepe, aliquid atque neque dicta natus quas quo voluptates recusandae ab excepturi iusto earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati eius, facere ex excepturi neque incidunt animi adipisci id molestias eveniet fugit impedit tenetur quo iusto ipsum hic temporibus. Minus.</p>
             </body>
         </div>
     <div>
 
         <div>
-            <form type="text">
-                <label class="center" for="fname">First name:</label><br>
-                <input class="center" type="text" id="fname" name="fname"><br>
-                <label class="center" for="lname">Last name:</label><br>
-                <input class="center" type="text" id="lname" name="lname"><br>
-                <label class="center" for="contact">Why Come?:</label><br>
-                <input class="center" type="text" id="contact" name="contact"><br>
-            </form>
+            <h2 class="header">CONTACT ME</h2>
+            <!-- yes, i know i shouldnt use id's more than once. i felt it was very stupid to change the header id to a class because i am already here. but i am also writing this obnoxiously long comment that is taking up way too much space so i definitely could have just changed it to a class and used it here but instead im doing this im so sorry if you have to go through and read this -->
+            <!-- after reading the acceptance criteria again i noticed that selector(s) is plural, so i did actually change it to a class, im sorry -->
+                <form id="contact_info" type="text">
+                    <label class="center" for="fname">First name:</label><br>
+                    <input class="center" type="text" id="fname" name="fname"><br>
+                    <label class="center" for="lname">Last name:</label><br>
+                    <input class="center" type="text" id="lname" name="lname"><br>
+                    <label class="center" for="contact">Why Come?:</label><br>
+                    <input class="center" type="text" id="contact" name="contact"><br>
+                </form>
+                <button class="cButton" type="button">Submit</button>
         </div>
 
         <footer>
